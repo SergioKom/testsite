@@ -1,0 +1,22 @@
+
+
+@font-face {
+    font-family: 'AvenirNextPro';
+    src: url('avenirnextpro-light/avenirnextpro-light.eot');
+    src: url('avenirnextpro-light/avenirnextpro-lightd41d.eot?#iefix') format('embedded-opentype'),
+    	 url('avenirnextpro-light/avenirnextpro-light.html') format('woff2'),
+         url('avenirnextpro-light/avenirnextpro-light.woff') format('woff'),
+         url('avenirnextpro-light/avenirnextpro-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AvenirNextPro';
+    src: url('avenirnextpro-medium/avenirnextpro-medium.eot');
+    src: url('avenirnextpro-medium/avenirnextpro-mediumd41d.eot?#iefix') format('embedded-opentype'),
+    	 url('avenirnextpro-medium/avenirnextpro-medium.html') format('woff2'),
+         url('avenirnextpro-medium/avenirnextpro-medium.woff') format('woff'),
+         url('avenirnextpro-medium/avenirnextpro-medium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
