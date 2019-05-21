@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Termina';
+    src: url('../fonts/webfonts/Termina-Regular.woff2') format('woff2'),
+         url('../fonts/webfonts/Termina-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Termina';
+    src: url('../fonts/webfonts/Termina-Bold.woff2') format('woff2'),
+         url('../fonts/webfonts/Termina-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

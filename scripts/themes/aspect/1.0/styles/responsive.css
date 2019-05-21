@@ -1,0 +1,337 @@
+
+
+/* Collapse topnav at 1023px
+----------------------------------------------------------- */
+
+@import url(../../../../1.0/styles/responsive_topnav.css) screen and (max-width: 1023px);
+
+/* ------------------------------------------------------------------------
+--------------------------------- Size 4 ----------------------------------
+------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1279px) {
+    
+    /* -----------------------------------------------------------
+       Page Specific
+    ----------------------------------------------------------- */
+    
+    .section-exhibitions .exhibition-header.has_location .subtitle {
+        padding-top: 5px!important;
+    }
+
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+
+    /* Classes here should include '.responsive-top-size-1279' */
+    .page-contact.responsive-top-size-1279 #content_module:not(.full_width),
+    .page-contact.responsive-top-size-1279 .contact-locations-grid .records_list.feature_list ul li .content,
+    body.responsive-layout-forced-lists.responsive-top-size-1279 .records_list.feature_list ul li .content {
+        width: 45% !important;
+    }
+    .page-contact.responsive-top-size-1279 #sidebar,
+    .page-contact.responsive-top-size-1279 .contact-locations-grid .feature_list ul li .google-map,
+    body.responsive-layout-forced-lists.responsive-top-size-1279 .records_list.feature_list ul li .image {
+        width: 50% !important;
+    }
+}
+
+/* ------------------------------------------------------------------------
+--------------------------------- Size 3 ----------------------------------
+------------------------------------------------------------------------ */
+
+@media screen and (max-width: 1023px) {
+
+
+    /* -----------------------------------------------------------
+       Generic
+    ----------------------------------------------------------- */
+    #quicksearch_form,
+    #quicksearch_form * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #quicksearch_form,
+    #quick_search,
+    #quick_search .inputField {
+        width: 100% !important;
+    }
+    #quicksearch_form {
+        display: block;
+        height: 40px;
+        position: relative;
+        padding-right: 30px;
+    }
+    #quick_search .inputField {
+        float: none;
+        display: block;
+    }
+        #quick_search #quicksearch_btn {
+            padding-left: 0;
+            text-decoration: none;
+            width: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+    /* -----------------------------------------------------------
+       General layout
+    ----------------------------------------------------------- */
+
+                #header {
+                    padding: 0;
+                }
+                #header .inner,
+                body.type-fullscreen #header .inner,
+                #header.header_fixed .inner {
+                    width: auto !important;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    min-height: 0;
+                }
+                #logo {
+                    float: none;
+                    padding: 0;
+                    margin: 0 auto 20px;
+                }
+                 #logo a {
+                    text-align: center;
+                }
+
+
+
+    /* -----------------------------------------------------------
+        Global classes
+    ----------------------------------------------------------- */
+
+
+
+    /* -----------------------------------------------------------
+       Page Specific
+    ----------------------------------------------------------- */
+
+        .section-exhibitions .exhibition-header .subtitle {
+            margin-bottom: 20px;
+        }
+        .section-exhibitions .subsection-wrapper-overview.exhibition-layout-slideshow #content_module {
+            width: 100%;
+        }
+
+        .section-store .subsection-store-basket #content_module {
+            width: 65%;
+        }
+        .section-store .subsection-store-basket #sidebar {
+            width: 30%;
+        }
+
+        .page-contact #content_module,
+        .page-contact .contact-locations-grid .records_list.feature_list ul li .content,
+        body.responsive-layout-forced-lists .records_list.feature_list ul li .content {
+            width: 45% !important;
+        }
+        .page-contact #sidebar,
+        .page-contact .contact-locations-grid .feature_list ul li .google-map,
+        body.responsive-layout-forced-lists .records_list.feature_list ul li .image {
+            width: 50% !important;
+        }
+
+
+}
+
+
+
+
+/* ------------------------------------------------------------------------
+--------------------------------- Size 2 ----------------------------------
+------------------------------------------------------------------------ */
+
+
+@media screen and (max-width: 767px) {
+
+
+
+    /* -----------------------------------------------------------
+       Generic
+    ----------------------------------------------------------- */
+
+        #header,
+        #header .inner {
+            padding-bottom: 0;
+        }
+        #logo {
+            margin-bottom: 10px;
+        }
+        #top_nav.navigation {
+            padding-top: 0;
+        }
+        #top_nav #top_nav_reveal {
+            margin: 0 0 10px !important;
+        }
+        #top_nav.navigation #top_nav_reveal ul li a {
+            line-height: normal;
+        }
+
+        #top_nav.navigation ul {
+            margin:0 !important;
+        }
+        #top_nav.navigation ul li {
+            width: 100% !important;
+            padding:0;
+            display:block;
+            clear:both;
+        }
+        #top_nav.navigation ul li a {
+            border:0;
+            padding: 5px 0;
+        }
+        #top_nav.navigation ul li.topnav_search {
+            padding: 0 20px;
+        }
+                /*#top_nav.navigation ul.topnav li a {*/
+                /*    line-height: inherit;*/
+                /*}*/
+
+
+
+
+    /* -----------------------------------------------------------
+       General layout
+    ----------------------------------------------------------- */
+
+    #hero_header #hero_heading {
+        font-size: 30px;
+        line-height: 34px;
+        text-align: center;
+    }
+    
+    #header .inner, body.type-fullscreen #header .inner, #header.header_fixed .inner {
+        padding: 18px 20px 18px;
+    }
+
+        #logo {
+            margin-bottom: 10px;
+        }
+
+
+    /* -----------------------------------------------------------
+        Global classes
+    ----------------------------------------------------------- */
+
+    .page-contact #content_module,
+    .page-contact .contact-locations-grid .records_list.feature_list ul li .content,
+    body.responsive-layout-forced-lists .records_list.feature_list ul li .content {
+        width: 100% !important;
+    }
+    .page-contact #sidebar,
+    .page-contact .contact-locations-grid .feature_list ul li .google-map,
+    body.responsive-layout-forced-lists .records_list.feature_list ul li .image {
+        width: 100% !important;
+    }
+
+
+    /* -----------------------------------------------------------
+       Page Specific
+    ----------------------------------------------------------- */
+    .page-contact .contact-locations-grid .records_list.feature_list ul li .content,
+    .page-contact #sidebar,
+    body.responsive-layout-forced-lists .records_list.feature_list ul li .image{
+        width: 100% !important;
+    }
+    .page-contact .contact-locations-grid .feature_list ul li .google-map {
+        width: 100% !important;
+        margin: 0 0 20px 0;
+    }
+
+}
+
+    @media screen and (min-width: 460px) and (max-width: 767px) {
+        
+    }
+
+
+
+
+/* ------------------------------------------------------------------------
+--------------------------------- Size 1 ----------------------------------
+------------------------------------------------------------------------ */
+
+
+@media screen and (max-width: 459px) {
+
+    /* -----------------------------------------------------------
+       Generic
+    ----------------------------------------------------------- */
+    #quicksearch_form * {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #quicksearch_form,
+        #quick_search {
+            width: 100% !important;
+        }
+            #quick_search .inputField {
+                width: 90%;
+            }
+            #quick_search #quicksearch_btn {
+                width: 10%;
+                padding-left: 4%;
+                text-decoration: none;
+            }
+
+        #quicksearch_form,
+        #quicksearch_form * {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #quicksearch_form,
+        #quick_search,
+        #quick_search .inputField {
+            width: 100% !important;
+        }
+        #quicksearch_form {
+            display: block;
+            height: 40px;
+            position: relative;
+            padding-right: 30px;
+        }
+        #quick_search .inputField {
+            float: none;
+            display: block;
+        }
+            #quick_search #quicksearch_btn {
+                text-decoration: none;
+                width: auto;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+
+    /* -----------------------------------------------------------
+       General layout
+    ----------------------------------------------------------- */
+
+    #hero_header #hero_heading {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+
+    /* -----------------------------------------------------------
+        Global classes
+    ----------------------------------------------------------- */
+
+
+
+    /* -----------------------------------------------------------
+       Page Specific
+    ----------------------------------------------------------- */
+
+
+}
+
+

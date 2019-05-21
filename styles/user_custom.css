@@ -1,0 +1,276 @@
+
+
+
+/* CSS imports ------------------- */
+
+    @import url(../fonts/avenirnextpro/avenirnextpro.css);
+
+
+
+
+    
+
+    
+    
+    
+
+
+
+/* Fonts----------------------------- */
+
+    /* Main body font ------------------- */
+
+        body,
+        input, select, textarea {
+            font-family: 'AvenirNextPro', Sans-Serif;
+
+        }
+
+    /* Heading and emphasis font ------------------- */
+
+
+
+    /* Navigation font ------------------- */
+
+    
+    
+    /* Title - Heading spacing and transform ------------------- */
+        
+
+
+
+
+
+/* Text colours----------------------------- */
+
+
+    /* Heading and emphasis text colour ------------------- */
+
+    /* Colour #000000 */
+        h1, h1 a, h1 a:visited,
+        h2, h2 a, h2 a:visited,
+        h3, h3 a, h3 a:visited,
+        h4, h4 a, h4 a:visited,
+        h5, h5 a, h5 a:visited,
+        h6, h6 a, h6 a:visited,
+        .feature_panels .records_list.image_list ul li h2,
+        .page-artists #artist_list ul li h2,
+        .records_list .content h2,
+        .records_list ul li h2 a,
+        .feature_list ul li .content h2,
+        .related_items_panel h3,
+        .navigation ul li a:hover,
+        .navigation ul li.active a:hover,
+        .navigation ul li.active a, .navigation ul li.active a:visited,
+        .records_list ul li .content .artist,
+        .records_list ul li .content .title_and_year,
+        .records_list ul li .content .title,
+        #cover_page_slideshow_pager {
+            color: #000000;
+        }
+
+
+    /* Subheading and secondary emphasis text colour ------------------- */
+
+        input, select, textarea,
+        .navigation ul li a, .navigation ul li a:visited,
+        .records_list .content .description,
+        .records_list ul li .content .description,
+        .subheading, .subtitle, .h1_subtitle,
+        .records_list .content .subtitle,
+        .feature_list ul li .content .subtitle,
+        .records_list .content .date,
+        .section-publications .records_list .content .description,
+        .image_list ul li .content .title,
+        .page_stats .ps_pages, .page_stats .ps_item,
+        .price, .date,
+        .poster, .subtitle, .h1_subtitle,
+        .records_list ul li a, .records_list ul li a:visited,
+        #image_gallery #content_module .detail_view_module,
+        .image_list ul li .content,
+        #shopping_cart_information td.sc_cell_item .details,
+        #footer, #footer a, #footer a:visited {
+            color: #000000;
+        }
+        .page_stats .disabled, .ps_item.disabled {
+            color: inherit;
+        }
+
+    /* Body/main text colour ------------------- */
+
+        body,
+        a, a:visited, a:hover,
+        #social_sharing_links.popup_vertical ul li.social_links_item a,
+        #social_sharing_links.popup_vertical ul li.social_links_item a:visited,
+        .page-artists .subsection-works #image_gallery .subtitle,
+        .page_stats .ps_item a, .page_stats .ps_item a:visited,
+        .page-artworks #image_gallery .subtitle,
+        .fancybox-skin,
+        .records_list .content,
+        div.arprompt .arpromptmessage {
+            color: #000000;
+        }
+
+
+    /* Link text color ------------------- */
+
+        .link, .link span, .link a, .link a:visited, #mc_embed_signup input.button {
+            color: #000000;
+        }
+
+
+
+    /* Header layout ------------------- */
+
+    
+    
+    
+            #logo {
+                float: left;
+                width: auto;
+                margin: 0;
+            }
+            #top_nav.navigation,
+            #top_nav.navigation.top_nav_centered {
+                clear: none;
+                float: right;
+            }
+
+    /* Dynamically created grid layout css ------------------- */
+    
+    
+    
+    /* Dynamically created artist list css ------------------- */
+    
+
+    /* Light and dark logo variants css ------------------- */
+    
+
+
+
+
+    /* Logo text color ------------------- */
+
+            #logo, #logo a {
+                background: none;
+                    max-width: 100%;
+                    width: 260px;
+                    height: 46px;
+                    max-height: 46px;
+            }
+        
+        .device-highres #logo {
+            background: none;
+        }
+        #logo a {
+            background-image: url('../images/dellasposacopy.jpg');
+            background-repeat: no-repeat;
+            background-position: center center;
+                background-size: contain;
+        }
+        .browser-msie-6 #logo a,
+        .browser-msie-7 #logo a,
+        .browser-msie-8 #logo a,
+        .browser-msie-9 #logo a,
+        .browser-msie-10 #logo a {
+            background: none;
+            filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/dellasposacopy.jpg', sizingMethod='scale');
+            -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/dellasposacopy.jpg', sizingMethod='scale')";
+        }
+        #logo a {
+            text-indent: -9999px;
+            padding: 0;
+        }
+        
+        
+
+        
+
+            #top_nav.navigation ul li {
+                padding-top: 0;
+            }
+            #top_nav.navigation ul li a {
+                    line-height: 52px;
+                padding: 0;
+            }
+            #header .header-ui-wrapper .header-icons-wrapper {
+                    line-height: 52px;
+            }
+            #header_quick_search {
+                    line-height: 52px;
+                padding: 0;
+            }
+        
+
+
+    /* Topnav text color ------------------- */
+
+        #header #store_cart_widget::before,
+        #top_nav.navigation ul li a,
+        #top_nav.navigation ul li a:visited,
+        #header_quick_search #header_quicksearch_btn,
+        #responsive_slide_nav_wrapper #top_nav .header_quicksearch_field,
+        #header_quick_search.active input, #header_quick_search.active select, #header_quick_search.active textarea,
+        #header .social_media_icon,
+        #translations_nav.navigation ul li a {
+            color: #000000;
+        }
+        #slide_nav_reveal::after {
+            color: #000000;
+        }
+        #top_nav.navigation ul li.active a,
+        #top_nav.navigation ul li.active a:visited,
+        #header #store_cart_widget:hover::before,
+        #header #store_cart_widget:hover::after,
+        #top_nav.navigation ul li:hover a,
+        #translations_nav.navigation ul li.active a,
+        #translations_nav.navigation ul li:hover a {
+            color: #adb8bc;
+        }
+
+
+    /* Subnav text color ------------------- */
+
+        .navigation ul li.active a, .navigation ul li.active a:visited, .navigation ul li.active a:hover {
+            color: #8a8d92;
+        }
+
+    /* Responsive nav text color ------------------- */
+
+
+
+
+
+/* Artlogic preferences custom CSS - entered by Artlogic in the preferences screen ------------------- */
+
+#logo a, #footer,
+.navigation ul li a,
+.link, .page_stats,
+.subheading span,
+.subheading, .subtitle, .poster, .date, .price,
+#hero_heading,
+#hero_header .title, #hero_header .subtitle,
+h1, h2, h3, h4, h5, h6,
+.fullscreen_slideshow .hero_splash_text,
+#cover_page_slideshow_pager {
+	font-family: 'Termina', Sans-Serif;
+}
+
+@media screen and (min-width: 1024px) {
+	#header .inner {
+		display: flex;
+    		align-items: center;
+	}
+	#responsive_slide_nav_wrapper {
+		margin-left: auto;
+	}
+}
+
+
+
+
+
+/* Client custom user CSS - entered by the client in the preferences screen ------------------- */
+
+
+

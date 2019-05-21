@@ -1,0 +1,716 @@
+
+
+
+/*-----------------------------------------------------------
+   Global settings
+----------------------------------------------------------- */
+
+    /* Mini lists
+    ----------------------------------------------------------- */
+
+    .mini_list ul li .icon,
+    .mini_list ul li .icon span {
+        width: 30px;
+        height: 30px;
+    }
+    .mini_list ul li .icon img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+
+
+    /* Image lists
+    ----------------------------------------------------------- */
+
+    .image_list > ul > li {
+        width: 400px;
+    }
+
+    .image_list ul li .image,
+    .image_list ul li .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .image_list ul li .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+    /* SLIDESHOW image galleries
+    ----------------------------------------------------------- */
+
+        #ig_slideshow,
+        #ig_slideshow .item,
+        #ig_slideshow .item span {
+            height: 450px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        #ig_slideshow_thumbnails_container,
+        #ig_slideshow_thumbnails_container .inner,
+        #ig_slideshow_thumbnails_prev,
+        #ig_slideshow_thumbnails_next,
+        #ig_slideshow_thumbnails_prev a,
+        #ig_slideshow_thumbnails_next a {
+            height: 60px;
+        }
+        #ig_slideshow_thumbnails ul li,
+        #ig_slideshow_thumbnails ul li a {
+            width: 60px;
+            height: 60px;
+        }
+
+
+/* -----------------------------------------------------------
+   Artworks
+----------------------------------------------------------- */
+
+    
+    .section-artworks .image_list ul li {
+        width: 400px;
+    }
+    .section-artworks .image_list ul li .image,
+    .section-artworks .image_list ul li .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artworks .image_list ul li .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+/* -----------------------------------------------------------
+   Artists
+----------------------------------------------------------- */
+
+
+    /* Artist List preview
+    ----------------------------------------------------------- */
+    
+    /* .page-artists .subsection-artist-list-preview #list_preview_slideshow {
+        
+    } */
+
+
+    /* Artist List slideshow (list of artists when in 'list_slideshow' mode)
+    ----------------------------------------------------------- */
+    
+    .page-artists #artist_list_slideshow {
+        width: 400px;
+        height: 400px;
+    }
+        .page-artists #artist_list_slideshow li {
+            width: 400px;
+            height: 400px;
+        }
+        
+
+    /* .section-artists .page-artists */
+    
+    .section-artists #artist_list li {
+        width: 400px;
+    }
+    .section-artists #artist_list li .image,
+    .section-artists #artist_list li .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists #artist_list li .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+    /* section-artists .subsection-overview */
+        .section-artists .subsection-overview .right {
+            width: 400px;
+        }
+        .section-artists .subsection-overview #slideshow ul {
+            min-height: 350px;
+        }
+
+    .section-artists #content #slideshow ul li .image,
+    .section-artists #content #slideshow ul li .image span {
+        width: 400px;
+        height: 350px;
+    }
+
+    /* .section-artists .subsection-works */
+    
+    .section-artists .subsection-works .image_list ul li,
+    .section-artists .artwork_categories .image_list ul li {
+        width: 400px;
+    }
+    .section-artists .subsection-works .image_list ul li .image,
+    .section-artists .subsection-works .image_list ul li .image span,
+    .section-artists .artwork_categories .image_list ul li .image,
+    .section-artists .artwork_categories .image_list ul li .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists .subsection-works .image_list ul li .image img,
+    .section-artists .artwork_categories .image_list ul li .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    /* .section-artists .subsection-featured-works */
+    
+    .section-artists .subsection-featured-works .image_list ul li {
+        width: 400px;
+        max-width: 400px;
+    }
+    .section-artists .subsection-featured-works .image_list ul li .image,
+    .section-artists .subsection-featured-works .image_list ul li .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists .subsection-featured-works .image_list ul li .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    /* section-artists .subsection-exhibitions ----------------------------------------------------------- */
+
+    .section-artists .subsection-exhibitions .records_list .image,
+    .section-artists .subsection-exhibitions .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists .subsection-exhibitions .records_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+    .section-artists .subsection-exhibitions .feature_list .image,
+    .section-artists .subsection-exhibitions .feature_list .image span {
+        width: 620px;
+        height: 620px;
+    }
+    .section-artists .subsection-exhibitions .feature_list .image img {
+        max-width: 620px;
+        max-height: 620px;
+    }
+
+    /* section-artists .subsection-related-content ----------------------------------------------------------- */
+
+    .section-artists .subsection-related-content .records_list .image,
+    .section-artists .subsection-related-content .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists .subsection-related-content .records_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+    .section-artists .subsection-related-content .feature_list .image,
+    .section-artists .subsection-related-content .feature_list .image span {
+        width: 470px;
+        height: 355px;
+    }
+    .section-artists .subsection-related-content .feature_list .image img {
+        max-width: 470px;
+        max-height: 355px;
+    }
+
+
+
+
+    /* section-artists .subsection-news ----------------------------------------------------------- */
+
+    .section-artists .subsection-news .records_list .image,
+    .section-artists .subsection-news .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists .subsection-news .records_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+    .section-artists .subsection-news .feature_list .image,
+    .section-artists .subsection-news .feature_list .image span {
+        width: 620px;
+        height: 620px;
+    }
+    .section-artists .subsection-news .feature_list .image img {
+        max-width: 620px;
+        max-height: 620px;
+    }
+
+    /* section-artists .subsection-publications ----------------------------------------------------------- */
+
+    .section-artists .subsection-publications .records_list .image,
+    .section-artists .subsection-publications .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists .subsection-publications .records_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+    .section-artists .subsection-publications .feature_list .image,
+    .section-artists .subsection-publications .feature_list .image span {
+        width: 620px;
+        height: 620px;
+    }
+    .section-artists .subsection-publications .feature_list .image img {
+        max-width: 620px;
+        max-height: 620px;
+    }
+
+    /* section-artists .subsection-events ----------------------------------------------------------- */
+
+    .section-artists .subsection-events .records_list .image,
+    .section-artists .subsection-events .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists .subsection-events .records_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    /* section-artists .subsection-art-fairs ----------------------------------------------------------- */
+
+    .section-artists .subsection-art-fairs .records_list .image,
+    .section-artists .subsection-art-fairs .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists .subsection-art-fairs .records_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    /* section-artists .subsection-press ----------------------------------------------------------- */
+
+    .section-artists .subsection-press .records_list .image,
+    .section-artists .subsection-press .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists .subsection-press .records_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    /* section-artists .subsection-videos ----------------------------------------------------------- */
+
+    .section-artists .subsection-videos .records_list .image,
+    .section-artists .subsection-videos .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-artists .subsection-videos .records_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+    .section-artists .subsection-videos .feature_list .image,
+    .section-artists .subsection-videos .feature_list .image span {
+        width: 620px;
+        height: 620px;
+    }
+    .section-artists .subsection-videos .feature_list .image img {
+        max-width: 620px;
+        max-height: 620px;
+    }
+
+
+/* -----------------------------------------------------------
+   Exhibitions
+----------------------------------------------------------- */
+
+    .section-exhibitions .no_of_exhibition_sections-2 {
+        
+        width: 570px;
+    }
+
+    /* Exhibitions Grid
+    ----------------------------------------------------------- */
+
+        /* Grid wide list (feature_list) ----------------------------------------------------------- */
+
+        .section-exhibitions .subsection-exhibitions-grid .feature_list .image,
+        .section-exhibitions .subsection-exhibitions-grid .feature_list .image span {
+            width: 620px;
+            height: 620px;
+        }
+        .section-exhibitions .subsection-exhibitions-grid .feature_list .image img {
+            max-width: 620px;
+            max-height: 620px;
+        }
+
+        /* Grid list (detail_list) ----------------------------------------------------------- */
+
+        .page-exhibitions .detail_list .image,
+        .page-exhibitions .detail_list .image span {
+            width: 400px;
+            height: 400px;
+        }
+        .page-exhibitions .detail_list .image img {
+            max-width: 400px;
+            max-height: 400px;
+        }
+
+        .section-exhibitions .subsection-installation .image_list ul li {
+            width: 400px;
+        }
+        .section-exhibitions .subsection-installation .image_list ul li .image,
+        .section-exhibitions .subsection-installation .image_list ul li .image span {
+            width: 400px;
+            height: 400px;
+        }
+        .section-exhibitions .subsection-installation .image_list ul li .image img {
+            max-width: 400px;
+            max-height: 400px;
+        }
+        
+        .section-exhibitions .subsection-works .image_list ul li {
+            width: 400px;
+        }
+        .section-exhibitions .subsection-works .image_list ul li .image,
+        .section-exhibitions .subsection-works .image_list ul li .image span {
+            width: 400px;
+            height: 400px;
+        }
+        .section-exhibitions .subsection-works .image_list ul li .image img {
+            max-width: 400px;
+            max-height: 400px;
+        }
+
+        /* Image gallery slideshow ----------------------------------------------------------- */
+
+
+
+
+
+    .section-exhibitions .subsection-overview #slideshow ul li .image,
+    .section-exhibitions .subsection-overview #slideshow ul li .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .section-exhibitions .subsection-overview #slideshow ul li .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+/* -----------------------------------------------------------
+   News
+----------------------------------------------------------- */
+
+    .page-news .feature_list .image,
+    .page-news .feature_list .image span {
+        width: 620px;
+        height: 620px;
+    }
+    .page-news .feature_list .image img {
+        max-width: 620px;
+    }
+    .page-news .detail_list .image,
+    .page-news .detail_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .page-news .detail_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+/* -----------------------------------------------------------
+   Search
+----------------------------------------------------------- */
+
+    .page-search .detail_list .image,
+    .page-search .detail_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .page-search .detail_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+/* -----------------------------------------------------------
+   Press
+----------------------------------------------------------- */
+
+    .page-press .detail_list .image,
+    .page-press .detail_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .page-press .detail_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+/* -----------------------------------------------------------
+   Press releases
+----------------------------------------------------------- */
+
+    .page-press_releases .detail_list .image,
+    .page-press_releases .detail_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .page-press_releases .detail_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+/* -----------------------------------------------------------
+   Video
+----------------------------------------------------------- */
+
+    .page-video .records_list.feature_list .image,
+    .page-video .records_list.feature_list .image span {
+        width: 620px;
+        height: 620px;
+    }
+    .page-video .records_list.feature_list .image img {
+        max-width: 620px;
+        max-height: 620px;
+    }
+    .page-video .records_list .image,
+    .page-video .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .page-video .records_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+/* -----------------------------------------------------------
+   Publications
+----------------------------------------------------------- */
+
+    .page-publications .records_list.feature_list .image,
+    .page-publications .records_list.feature_list .image span {
+        width: 620px;
+        height: 620px;
+    }
+    .page-publications .records_list.feature_list .image img {
+        max-width: 620px;
+        max-height: 620px;
+    }
+    .page-publications .records_list .image,
+    .page-publications .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .page-publications .records_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+/* -----------------------------------------------------------
+   Events
+----------------------------------------------------------- */
+
+    .page-events .detail_list .image,
+    .page-events .detail_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .page-events .detail_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    /* Events Grid
+    ----------------------------------------------------------- */
+        .section-events .subsection-events-grid .feature_list .image span {
+            width: 620px;
+            height: 620px;
+        }
+
+
+/* -----------------------------------------------------------
+   Art fairs
+----------------------------------------------------------- */
+
+    .page-art-fairs #art-fairs-grid-container .detail_list .image,
+    .page-art-fairs #art-fairs-grid-container .detail_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .page-art-fairs #art-fairs-grid-container .detail_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+/* -----------------------------------------------------------
+   Team
+----------------------------------------------------------- */
+    .page-team .detail_list ul li,
+    .page-team .image_list ul li {
+        width: 400px;
+    }
+    .page-team .detail_list ul li .image,
+    .page-team .detail_list ul li .image span,
+    .page-team .image_list ul li .image,
+    .page-team .image_list ul li .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .page-team .detail_list ul li .image img,
+    .page-team .image_list ul li .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+/* -----------------------------------------------------------
+   Store
+----------------------------------------------------------- */
+
+    .page-store .detail_list .image,
+    .page-store .detail_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .page-store .detail_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+
+/* -----------------------------------------------------------
+   Feature panels
+----------------------------------------------------------- */
+
+    .feature_panels .records_list .image,
+    .feature_panels .records_list .image span {
+        width: 400px;
+        height: 400px;
+    }
+    .feature_panels .detail_list .image img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+
+        /* Standard feature panels
+        ----------------------------------------------------------- */
+
+        .feature_panels .records_list ul li.panel_standard {
+            width: 400px;
+        }
+        .feature_panels .records_list ul li.panel_standard .image,
+        .feature_panels .records_list ul li.panel_standard .image span {
+            width: 400px;
+            height: 400px;
+        }
+        .feature_panels .records_list ul li.panel_standard .image img {
+            max-width: 400px;
+            max-height: 400px;
+        }
+
+
+        /* Wide feature panels
+        ----------------------------------------------------------- */
+
+        .feature_panels .records_list ul li.panel_style_wide {
+            width: 820px;
+        }
+        .feature_panels .records_list ul li.panel_style_wide .image,
+        .feature_panels .records_list ul li.panel_style_wide .image span {
+            width: 820px;
+            height: 820px;
+        }
+        .feature_panels .records_list ul li.panel_style_wide .image img {
+            max-width: 820px;
+            max-height: 820px;
+        }
+
+        .feature_panels.feature_panels_layout_type_2 .records_list ul li.panel_style_wide {
+            width: 820px;
+        }
+        .feature_panels.feature_panels_layout_type_2 .records_list ul li.panel_style_wide .image,
+        .feature_panels.feature_panels_layout_type_2 .records_list ul li.panel_style_wide .image span {
+            width: 820px;
+            height: 820px;
+        }
+        .feature_panels.feature_panels_layout_type_2 .records_list ul li.panel_style_wide .image img {
+            max-width: 820px;
+            max-height: 820px;
+        }
+
+
+        /* Standard feature panels
+        ----------------------------------------------------------- */
+
+        .feature_panels .records_list ul li.panel_style_two_columns {
+            width: 820px;
+        }
+        .feature_panels .records_list ul li.panel_style_two_columns .image,
+        .feature_panels .records_list ul li.panel_style_two_columns .image span {
+            width: 820px;
+            height: 820px;
+        }
+        .feature_panels .records_list ul li.panel_standard.panel_style_two_columns .image img {
+            max-width: 820px;
+            max-height: 820px;
+        }
+
+
+        /* Standard feature panels
+        ----------------------------------------------------------- */
+
+        .feature_panels .records_list ul li.panel_style_full_width {
+            width: 1240px;
+        }
+        .feature_panels .records_list ul li.panel_style_full_width .image,
+        .feature_panels .records_list ul li.panel_style_full_width .image span {
+            width: 1240px;
+            height: 620px;
+        }
+        .feature_panels .records_list ul li.panel_style_full_width .image img {
+            max-width: 1240px;
+            max-height: 620px;
+        }
+
+
+
+        /* Standard feature panels
+        ----------------------------------------------------------- */
+
+        .feature_panels .records_list ul li.panel_style_half_width {
+            width: 610px;
+        }
+        .feature_panels .records_list ul li.panel_style_half_width .image,
+        .feature_panels .records_list ul li.panel_style_half_width .image span {
+            width: 610px;
+            height: 300px;
+        }
+        .feature_panels .records_list ul li.panel_style_half_width .image img {
+            max-width: 610px;
+            max-height: 300px;
+        }
+
+
+
+        /* Image/Text adjacent feature panels
+        ----------------------------------------------------------- */
+
+        .feature_panels .records_list ul li.panel_image_text_adjacent {
+            width: 620px;
+        }
+        .feature_panels .records_list ul li.panel_image_text_adjacent .image,
+        .feature_panels .records_list ul li.panel_image_text_adjacent .image span {
+            width: 620px;
+            height: 620px;
+        }
+        .feature_panels .records_list ul li.panel_image_text_adjacent .image img {
+            max-width: 620px;
+            max-height: 620px;
+        }

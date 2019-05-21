@@ -1,0 +1,24 @@
+
+
+
+
+	/* Core layout styles */
+	@import url(../styles/layout.css);
+	
+	
+
+		/* Theme main.css (gallery template websites) */
+		@import url(../styles/layout1d07.css);
+	
+	/* Theme preset */
+	
+
+/* Website main.css */
+@import url(../styles/main.css);
+
+
+
+	    /* Dynamic sizes defined by site_settings.py */
+	    @import url(dynamic.css);
+
+

@@ -1,0 +1,15 @@
+
+
+    /* -----------------------------------------------------------
+       Generic
+    ----------------------------------------------------------- */
+
+    #footer.advanced_footer #social_links {
+        float: none;
+        padding-top: 0;
+    }
+    #footer.advanced_footer #social_links .social_links_item {
+        margin: 0 8px 0 0;
+    }
+
+    

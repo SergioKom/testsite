@@ -1,0 +1,1596 @@
+/* ----------------------------------------------------------------------------------
+Art Gallery Website Template
+Theme name: Aspect
+---------------------------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------
+   Layout
+----------------------------------------------------------- */
+
+    #container {
+        width: 1240px;
+        padding-top: 0;
+    }
+    
+    .xxcms-frontend-toolbar-active #header:before {
+        content: 'version 1.0';
+        background: red;
+        display: block;
+        position: fixed;
+        top: 28px;
+        left: 0;
+        padding: 5px;
+        z-index: 100000;
+    }
+
+
+    /* Header area
+    ----------------------------------------------------------- */
+
+    #header {
+        background: #FFF;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+        #header .inner,
+        #header.header_fixed .inner {
+            position: relative;
+            width: 1240px;
+            min-height: 0;
+            margin: 0 auto;
+            padding: 32px 0 28px;
+            transition: border 0.2s linear;
+            border-bottom: 1px solid #ebebeb;
+        }
+        #header.page-scroll .inner,
+        .layout-hero-header #header .inner {
+            border-bottom: 1px solid transparent;
+        }
+
+
+    /* Logo
+    ----------------------------------------------------------- */
+
+    #logo {
+        float: left;
+        padding: 0;
+        margin: 0;
+        height: auto;
+        background: center center no-repeat;
+    }
+        #logo a {
+            height: auto;
+            padding: 0;
+            text-align: left;
+            font-size: 30px;
+            line-height: 36px;
+            letter-spacing: 4px;
+            font-weight: 200;
+        }
+        #logo a, #logo a:visited {
+            color: #303030;
+        }
+
+    #home_splash .content {
+        text-transform: uppercase;
+    }
+
+    /* Translations nav in header
+    ----------------------------------------------------------- */
+
+    #translations_nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+
+    /* Generic navigation
+    ----------------------------------------------------------- */
+
+    .navigation {
+
+    }
+        .navigation ul {
+
+        }
+        .navigation ul li.last {
+            margin-right: 0 !important;
+        }
+        .navigation ul li a {
+            line-height: 15.5px;
+            text-transform: uppercase;
+            font-size: 11.5px;
+            font-weight: 200;
+            letter-spacing: 2px;
+            padding: 0 0 5px;
+        }
+        .navigation ul li a,
+        .navigation ul li a:visited {
+            color: #757574;
+        }
+        .navigation ul li a:hover {
+            color: #757574;
+        }
+        .navigation ul li.active a,
+        .navigation ul li.active a:visited,
+        .navigation ul li.active a:hover,
+        #top_nav.navigation > ul > li.active_dir > a,
+        #top_nav.navigation > ul > li.active_dir > a:visited,
+        #top_nav.navigation > ul > li.active_dir > a:hover {
+            color: #303030;
+        }
+
+
+    /* Top nav
+    ----------------------------------------------------------- */
+
+    #top_nav.navigation {
+        float: right;
+        clear: none;
+        padding: 0;
+    }
+        #top_nav ul {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        #top_nav.navigation ul li {
+            margin: 0 0 0 30px;
+        }
+        #top_nav.navigation ul li:first-child {
+            margin-left: 0;
+        }
+        #top_nav.navigation ul li a {
+            font-size: 11.5px;
+            padding: 8px 0;
+        }
+
+
+    /* Additional nav
+    ----------------------------------------------------------- */
+
+    .additional_nav {
+        padding-top: 8px;
+    }
+    .additional_nav ul li a, .additional_nav ul li a:visited {
+        text-transform: none;
+        letter-spacing: 0;
+        font-size: 12px;
+        color: #757575;
+    }
+
+
+    /* Header social links
+    ----------------------------------------------------------- */
+    #header #social_links_nav {
+        vertical-align:middle;
+    }
+
+    #header #social_links_nav .social_media_icon {
+        background-image: url(../images/system/social_icons_new.png);
+        border: none;
+        background-color: transparent;
+        margin: 0 5px 0 0;
+    }
+    .layout-hero-header #header #social_links_nav .social_media_icon {
+        background-image: url(../images/system/social_icons_alt.png);
+    }
+    .device-highres.layout-hero-header #header #social_links_nav .social_media_icon {
+        background-image: url(../images/system/social_icons_alt_2x.png);
+    }
+
+    /* Search
+    ----------------------------------------------------------- */
+
+    #header_quick_search {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 0 0 30px;
+    }
+        #header_quick_search form {
+            width: auto;
+            border: 0;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            padding: 0;
+        }
+        #header_quick_search.active form {
+        }
+        #header_quick_search .inputField {
+            padding: 8px 0;
+            width: 68px;
+            font-size: 11.5px;
+            letter-spacing: 2px;
+            line-height: 15.5px;
+            border: 0;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        #header_quick_search input,
+        #header_quick_search select,
+        #header_quick_search textarea {
+            font-size: 12px;
+            text-transform: uppercase;
+            color:#757575;
+            letter-spacing: 1.6px;
+            margin: 0;
+        }
+        #header_quick_search.active input,
+        #header_quick_search.active select,
+        #header_quick_search.active textarea {
+            cursor: auto;
+            color: #303030;
+        }
+        #header_quick_search input:focus {
+            outline:none;
+        }
+        #header_quick_search #header_quicksearch_btn {
+            display: inline-block !important;
+            padding: 8px 0;
+            margin: 0;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 1.6px;
+            width:18px;
+            float: none;
+        }
+
+
+    /* Sub nav
+    ----------------------------------------------------------- */
+
+    #sub_nav.navigation,
+    #exhibitions_nav.navigation,
+    .list_grid_control.navigation {
+        float: right;
+        clear: none;
+        padding: 0 0 0;
+    }
+        #sub_nav.navigation ul li,
+        #exhibitions_nav.navigation ul li,
+        .list_grid_control.navigation ul li {
+            margin: 0 0 0 24px;
+        }
+        #sub_nav.navigation ul li a,
+        #exhibitions_nav.navigation ul li a,
+        .list_grid_control.navigation ul li a {
+            font-size: 11.5px;
+            padding-top: 5px;
+        }
+
+    /* Content areas
+    ----------------------------------------------------------- */
+
+    #main_content {
+        padding: 43px 0 0;
+        margin: 0 0 43px;
+    }
+    .layout-fixed-header #main_content {
+        padding-top: 149px;
+    }
+
+    #content {
+        clear: both;
+    }
+        #content_module {
+            float: left;
+            width: 780px;
+        }
+        #sidebar {
+            float: right;
+            width: 400px;
+        }
+        #sidebar .image {
+            height: auto;
+            background: none;
+        }
+        #sidebar .image img {
+            display: block;
+            margin: 0 auto;
+        }
+
+    #quicksearch_btn {
+        color: #757574;
+        text-decoration: none;
+    }
+
+
+    /* Page headings
+    ----------------------------------------------------------- */
+
+    #h1_wrapper {
+        float: left;
+        min-width: 300px;
+    }
+    h1 {
+        margin: 0 0 50px;
+        float: left;
+    }
+    h1.has_subtitle {
+        margin: 0 0 14px;
+    }
+    h1.has_subnav {
+        margin: 0;
+    }
+
+    .heading_wrapper {
+        margin: 0 0 50px;
+    }
+        .heading_wrapper h1 {
+            margin: 0 0 0;
+            float: none;
+        }
+            .heading_wrapper h1.has_subtitle {
+                margin: 0 0 28px;
+            }
+            .heading_wrapper h1 .h1_heading {
+                margin: 0 0 28px;
+                display: block;
+                width: 100%;
+            }
+            .heading_wrapper h1 .separator {
+                display: none;
+            }
+            .heading_wrapper h1 .h1_subtitle {
+                float: left;
+                margin: 0 25px 0 0;
+                line-height: 15.5px;
+                /* Top padding and line height ensures these tags line up with the navigation and subtitles/dates which have 5px top padding */
+                padding-top: 5px;
+            }
+        .heading_wrapper .subtitle,
+        .heading_wrapper .date,
+        .heading_wrapper .location{
+            float: left;
+            clear: none;
+            line-height: 13px;
+            margin: 0 20px 0 0;
+            /* Top padding and line height ensures these tags line up with the navigation which has 5px top padding */
+            padding-top: 5px;
+            line-height: 15.5px;
+        }
+        .heading_wrapper #sub_nav {
+            margin: 0;
+        }
+
+
+
+    /* Footer
+    ----------------------------------------------------------- */
+
+    #footer {
+        border-top: 1px solid #ebebeb;
+        color: #757574;
+        font-weight: 200;
+        padding: 30px 0 0;
+        margin: 0 0 30px;
+        width: 1240px;
+    }
+        #footer #contact_info {
+            float: left;
+            max-width: 450px;
+        }
+        #footer .copyright {
+            float: left;
+            margin-right: 50px;
+        }
+        #footer #artlogic,
+        #footer .privacy-policy,
+        #footer .cookie-policy {
+            font-size: 8px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        #footer #copyright {
+            font-size: 11.5px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin: 0 0 6px;
+        }
+        #footer a,
+        #footer a:visited {
+            color: #757574;
+            text-decoration: none;
+        }
+
+
+
+/* -----------------------------------------------------------
+   Page Specific
+----------------------------------------------------------- */
+
+
+    /* Home
+    ----------------------------------------------------------- */
+
+    .section-home #main_content {
+        margin-bottom: 0;
+    }
+    .section-home #slideshow ul,
+    .section-home #slideshow ul li {
+        display: block;
+    }
+    .section-home #slideshow.records_list .image {
+        margin: 0 0 33px;
+        width: 1240px;
+    }
+    .section-home #slideshow .description {
+        display: none;
+    }
+
+
+    /* Artists
+    ----------------------------------------------------------- */
+
+    .page-artists h1 #artist_years {
+        font-size: 11.5px;
+        letter-spacing: 2px;
+        padding-left: 5px;
+    }
+
+    .page-artists #artist_list ul li h2 {
+        font-size: 11.5px;
+
+    }
+    .page-artists .subsection-works #image_gallery .subtitle,
+    .page-artists .subsection-works .image_list ul li .content {
+        color: #303030;
+    }
+
+        /* Artist list preview
+        ----------------------------------------------------------- */
+
+        .page-artists .subsection-artist-list-preview {
+
+        }
+            .page-artists .subsection-artist-list-preview #content_module {
+                float: left;
+            }
+            .page-artists .subsection-artist-list-preview #sidebar {
+                float: right;
+            }
+
+
+        /* Artist list preview letters a-z
+        ----------------------------------------------------------- */
+
+        .page-artists .subsection-artist-list-preview-letters {
+
+        }
+            .page-artists .subsection-artist-list-preview-letters #content_module {
+                float: left;
+            }
+            .page-artists .subsection-artist-list-preview-letters #sidebar {
+                float: right;
+            }
+
+
+        /* Artist - video
+        ----------------------------------------------------------- */
+
+        .page-artists .subsection-video #sidebar {
+            display: none;
+        }
+        .page-artists .subsection-video #content_module {
+            width: 100%;
+        }
+
+
+    /* Artworks (for single artist websites)
+    ----------------------------------------------------------- */
+
+    .page-artworks #image_gallery .subtitle,
+    .page-artworks .image_list ul li .content {
+        color: #303030;
+    }
+
+
+    /* Exhibitions
+    ----------------------------------------------------------- */
+    
+    .section-exhibitions .exhibition-header.has_location .subtitle {
+        clear: left;
+    }
+    .section-exhibitions .exhibition-header.has_location .subtitle .subtitle_date {
+        margin-top: 5px;
+        display: block;
+    }
+    .section-exhibitions .exhibition-header.has_location .subtitle .location {
+        margin-top: 5px;
+        display: block;
+    }
+    .section-exhibitions .exhibition-header.has_location #sub_nav {
+        margin-top: -20px;
+    }
+    .section-exhibitions #content.exhibition-list-outer-container,
+    .section-exhibitions #exhibitions-grid-container {
+        clear: none;
+    }
+    #exhibitions-grid-container {
+        clear: both;
+    }
+    #exhibitions-grid-container .divider {
+        display: none;
+    }
+    #exhibitions-grid-container .subsection-exhibitions-grid {
+        padding: 0;
+        margin: 0 0 26px;
+    }
+    #exhibitions-grid-forthcoming .subheading,
+    #exhibitions-grid-past .subheading {
+
+    }
+    #exhibitions-grid-container #exhibitions-grid-past.subsection-exhibitions-grid {
+        margin: 0;
+        border-bottom: 0;
+    }
+
+    #back_to_exhibitions_link,
+    .section-exhibitions .back_to_link {
+        display: none;
+    }
+
+    .section-exhibitions .heading_wrapper h1 {
+        margin: 0;
+    }
+
+    .section-exhibitions .heading_wrapper .location {
+        display: block;
+    }
+
+    /* Events
+    ----------------------------------------------------------- */
+
+    #events-grid-container {
+
+    }
+    #events-grid-container .divider {
+        display: none;
+    }
+    #events-grid-container .subsection-events-grid {
+        padding: 0;
+        margin: 0 0 26px;
+    }
+    #events-grid-forthcoming .subheading,
+    #events-grid-past .subheading {
+
+    }
+    #events-grid-container #events-grid-past.subsection-events-grid {
+        margin: 0;
+        border-bottom: 0;
+    }
+    .event-details-wrapper .event-details span {
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #757575;
+        font-size: 11.5px;
+        line-height: 2em;
+        display: block;
+    }
+    .event-details-wrapper .event-details a,
+    .event-details-wrapper .event-details a:visited{
+        color: #757575;
+        text-decoration:none;
+    }
+    .event-details-wrapper .event-details a:hover{
+        color: #303030;
+    }
+    /* Art fairs
+    ----------------------------------------------------------- */
+
+    #art-fairs-grid-container {
+
+    }
+    #art-fairs-grid-container .divider {
+        display: none;
+    }
+    #art-fairs-grid-container .subsection-art-fairs-grid {
+        padding: 0;
+        margin: 0 0 26px;
+    }
+    #art-fairs-grid-forthcoming .subheading,
+    #art-fairs-grid-past .subheading {
+
+    }
+    #art-fairs-grid-container #art-fairs-grid-past.subsection-art-fairs-grid {
+        margin: 0;
+        border-bottom: 0;
+    }
+
+
+    /* Press
+    ----------------------------------------------------------- */
+
+    .subsection-press .records_list .content .link,
+    .section-press .records_list .content .link {
+        display: inline-block;
+        text-align: left;
+    }
+        .subsection-press .records_list .content .link a,
+        .section-press .records_list .content .link a {
+            display: block;
+            text-align: left;
+            width: 100%;
+            letter-spacing: 1.5px;
+        }
+
+
+    /* Publications
+    ----------------------------------------------------------- */
+
+    .section-publications .records_list .image span {
+        text-align: left;
+    }
+        .section-publications .records_list .image span img {
+            margin: 0;
+        }
+    .section-publications .records_list .content .description {
+        display: block;
+        color: #757575;
+    }
+        .section-publications .records_list .content .description .format {
+            margin: 0 0 8px;
+            display: block;
+        }
+
+
+    /* Blog
+    ----------------------------------------------------------- */
+
+    .section-blog .blog_detail_about_author .image img {
+        -moz-border-radius: 200px;
+        -webkit-border-radius: 200px;
+        border-radius: 200px;
+    }
+    .section-blog .records_list.reading_list ul li .blog_toolbar .author .icon img {
+        -moz-border-radius: 200px;
+        -webkit-border-radius: 200px;
+        border-radius: 200px;
+    }
+    .section-blog .subsection-blog-grid #sidebar {
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+
+    /* Store
+    ----------------------------------------------------------- */
+
+    #shopping_cart_container h1 {
+        float: none;
+        display: block;
+    }
+
+    .section-store .subsection-store-basket {
+
+    }
+        .section-store .subsection-store-basket #content_module {
+            float: left;
+            width: 780px;
+        }
+        .section-store .subsection-store-basket #sidebar {
+            float: right;
+            width: 400px;
+        }
+        .section-store .subsection-store-basket h2 {
+            margin: 0 0 35px;
+        }
+        #sc_checkout_content #shipping_container #shipping_zones_container h3, #sc_checkout_content #shipping_container #shipping_options_container h3 {
+            font-size: 13px;
+        }
+
+
+    #store_cart_widget {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 10px;
+        margin-top: -25px;
+    }
+        #store_cart_widget a {
+
+        }
+        #store_cart_widget #scw_heading {
+
+        }
+            #store_cart_widget #scw_items .scw_total_items,
+            #store_cart_widget #scw_items .scw_total_price {
+
+            }
+        #store_cart_widget #scw_checkout {
+
+        }
+
+
+
+    /* About
+    ----------------------------------------------------------- */
+
+
+    /* Team
+    ----------------------------------------------------------- */
+
+    .section-team .records_list .content .description,
+    .section-team .records_list .content .link {
+        display: block;
+    }
+
+    /* Clients
+    ----------------------------------------------------------- */
+
+    .section-clients .records_list .content .description {
+        display: block;
+    }
+
+
+    /* Contact
+    ----------------------------------------------------------- */
+
+    .page-contact #content_module,
+    .page-contact .contact-locations-grid .feature_list ul li .content{
+        float: right;
+        width: 600px;
+    }
+    .page-contact #sidebar,
+    .page-contact .contact-locations-grid .feature_list ul li .google-map {
+        float: left;
+        width: 600px;
+        max-width: 100%;
+    }
+    .page-contact .contact-locations-grid .feature_list ul li .image,
+    .page-contact .contact-locations-grid .feature_list ul li .image span {
+        width: 600px;
+        max-width: 600px;
+        margin: 0;
+    }
+
+    /* Mailing list
+    ----------------------------------------------------------- */
+
+    .section-mailing-list #content_module {
+        float: left;
+    }
+    .section-mailing-list #sidebar {
+        float: right;
+    }
+
+
+    /* Page not found
+    ----------------------------------------------------------- */
+
+    .section-pagenotfound #container {
+        width: 400px;
+        text-align: center;
+    }
+    .section-pagenotfound #logo {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .section-pagenotfound #logo a {
+        text-align: center;
+    }
+    .section-pagenotfound #main_content h1 {
+        width: 100%;
+        min-width: 0;
+        text-align: center;
+    }
+
+
+/* -----------------------------------------------------------
+   Global Classes
+----------------------------------------------------------- */
+
+    /* Fullscreen slideshows
+    ----------------------------------------------------------- */
+
+    body.type-fullscreen #header.header_fixed {
+        position: fixed;
+    }
+    body.type-fullscreen #header .inner {
+        border-bottom: 1px solid white;
+        width: 1240px;
+    }
+    body.type-fullscreen #footer {
+        /*border-top: 0;*/
+    }
+    .fullscreen_slideshow .hero_splash_text {
+        text-transform: uppercase;
+        font-weight: 200;
+        color: #fff;
+        letter-spacing: 5px;
+        padding: 0;
+    }
+    .fullscreen_slideshow ul li .content {
+        width: 1300px;
+    }
+    #hero_header .fullscreen_slideshow ul li .content .inner {
+        width: 100%;
+    }
+
+
+    /* Hero headers
+    ----------------------------------------------------------- */
+
+    #hero_header .inner {
+        width: 1240px;
+    }
+
+
+    /* Image gallery slideshow
+       A cycling slideshow with thumbnails underneath
+    ----------------------------------------------------------- */
+
+    #ig_slideshow_container {
+        width: 550px;
+    }
+        #ig_slideshow_container .divider {
+            display: none;
+        }
+
+
+    /* Image gallery
+       Standard page-by-page image gallery
+    ----------------------------------------------------------- */
+
+    #image_gallery {
+
+    }
+        #image_gallery #image_container,
+        #image_gallery #image_container .image,
+        #image_gallery #image_container .image span {
+            width: 900px;
+            height: 660px;
+            height: auto;
+            display: block;
+        }
+            #image_gallery.record-layout-descriptive #image_container,
+            #image_gallery.record-layout-descriptive #image_container .image,
+            #image_gallery.record-layout-descriptive #image_container .image span {
+                width: 725px;
+                height: auto;
+            }
+            #image_gallery.record-layout-descriptive #secondary_content_module,
+            #image_gallery.record-layout-descriptive .page_stats{
+                float: right;
+                width: 725px;
+                padding-top: 20px;
+            }
+        #image_gallery #content_module {
+            min-height: 610px;
+        }
+            #image_gallery.record-layout-descriptive #content_module {
+                min-height: initial;
+                width: 450px;
+            }
+        #image_gallery #content_module .subtitle {
+            margin: 0 0 10px;
+            font-size: 13px;
+        }
+        #image_gallery #content_module .detail_view_module,
+        #image_gallery #secondary_content_module .detail_view_module {
+            color: #757575;
+        }
+        #image_gallery #content_module .detail_view_module,
+        #image_gallery #secondary_content_module .detail_view_module,
+        #image_gallery #content_module .subtitle,
+        #image_gallery #content_module .enquire {
+            margin-bottom: 30px;
+        }
+        #image_gallery #content_module h3 {
+            font-weight: 200;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #303030;
+            font-size: 12px;
+            line-height: 1.2em;
+        }
+        #image_gallery #content_module .page_stats {
+            border: 0;
+        }
+            #image_gallery.record-layout-descriptive .page_stats {
+                padding-top: 0;
+                border: 0;
+                padding-bottom: 15.5px;
+            }
+        #image_gallery.artwork_full_details_open {
+
+        }
+            #image_gallery.artwork_full_details_open #content_module {
+                width: 660px;
+            }
+            #image_gallery.artwork_full_details_open #image_container {
+                width: 250px;
+            }
+                #image_gallery #image_container .image,
+                #image_gallery #image_container .image span {
+                    width: 100%;
+                }
+
+
+    /* Records list
+       Default styling for all content grids on the site
+    ----------------------------------------------------------- */
+
+    .records_list {
+
+    }
+        .records_list ul {
+            margin-bottom: 0;
+        }
+        .records_list > ul > li {
+            width: 400px;
+            margin: 0 20px 45px 0;
+        }
+        .records_list > ul > li.last {
+            margin-right: 20px;
+        }
+        .records_list > ul > li:last-of-type {
+
+        }
+        .records_list ul li a,
+        .records_list ul li a:visited {
+
+        }
+        .records_list ul li .image {
+            float: left;
+            width: 300px;
+            height: 300px;
+            margin: 0 0 30px;
+            background: none;
+        }
+        .records_list ul li .icon {
+            background: none;
+        }
+        .records_list .content,
+        .detail_list_alt ul li .content {
+            text-align: left;
+            width: 100%;
+        }
+            .records_list .content h2,
+            .records_list .content .subtitle,
+            .records_list .content .date {
+                font-size: 13px;
+                color: #303030;
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+            }
+            .records_list .content .subtitle,
+            .records_list .content .date,
+            .records_list .content .location{
+                font-size: 10.5px;
+                color: #757575;
+            }
+            .records_list .content .price {
+                font-size: 11.5px;
+            }
+            .records_list .content .description {
+                color: #757575;
+            }
+            .records_list .content .description,
+            .records_list .content .link {
+                display: none;
+            }
+            .records_list .content .location {
+                display: block;
+            }
+
+
+        /* Records lists in a sidebar
+        ----------------------------------------------------------- */
+
+        #sidebar .feature_panels .records_list ul li {
+            width: 100%;
+            margin: 0 0 25px;
+            padding: 0 0 15px;
+            border-bottom: 1px solid #ebebeb;
+        }
+        #sidebar .feature_panels .records_list ul li:last-of-type {
+            border-bottom: 0;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+
+    /* Reading list
+    ----------------------------------------------------------- */
+
+    .records_list.reading_list {
+
+    }
+        .records_list.reading_list ul li {
+            border-bottom: 1px solid #ebebeb;
+            padding: 0 0 40px;
+            margin: 0 0 40px;
+        }
+        .records_list.reading_list ul li:last-of-type {
+            border-bottom: 0;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        .records_list.reading_list ul li .image {
+            height: auto;
+        }
+        .records_list.reading_list ul li .content .description,
+        .records_list.reading_list ul li .content .link {
+            display: block;
+        }
+
+
+    /* Mini list
+       Small list with image and one line text (e.g. related items)
+    ----------------------------------------------------------- */
+
+    .mini_list ul {
+
+    }
+        .mini_list ul li {
+            margin: 0 0 8px;
+            width: 50%;
+        }
+            .mini_list ul li a {
+
+            }
+            .mini_list ul li .image {
+
+            }
+            .mini_list ul li .content {
+
+            }
+            .mini_list ul li .content h2 {
+                font-size: 10px;
+            }
+
+    .related_items_panel {
+        margin: 0 0 15px;
+    }
+        .related_items_panel h3 {
+            font-size: 11.5px;
+            border-bottom: 1px solid #EBEBEB;
+            padding: 0 0 8px;
+            margin: 0 0 8px;
+        }
+
+
+    /* Image list
+       A grid of images with captions e.g. Artists list
+    ----------------------------------------------------------- */
+
+    .image_list {
+
+    }
+        .image_list ul {
+
+        }
+        .image_list ul li {
+
+        }
+        .image_list ul li .image {
+
+        }
+        .image_list ul li .content .title,
+        .image_list ul li .content .artist {
+            font-size: 11.5px;
+            font-weight: 200;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: #757575;
+            margin: 0 0 10px;
+        }
+        .image_list ul li .content .artist {
+            color: #303030;
+        }
+        .image_list ul li .content em {
+            font-style: normal;
+        }
+        .image_list ul li .content strong {
+        }
+        .image_list ul li .signed_and_dated,
+        .image_list ul li .dimensions,
+        .image_list ul li .medium {
+            font-size: 12.5px;
+            color: #303030;
+            font-weight: 200;
+            letter-spacing: 0;
+            text-transform: none;
+        }
+
+
+    /* Detail list
+       A grid which usually has an image with more preview text/content
+    ----------------------------------------------------------- */
+
+    .detail_list {
+
+    }
+        .detail_list ul {
+
+        }
+        .detail_list ul li {
+
+        }
+
+        .detail_list ul li .image {
+
+        }
+        .detail_list ul li .content {
+            width: 100%;
+        }
+
+
+    /* Feature panels
+    ----------------------------------------------------------- */
+
+    .feature_panels .records_list.image_list {
+
+    }
+        .feature_panels .records_list ul {
+
+        }
+        .feature_panels .records_list.image_list ul li {
+
+        }
+        .feature_panels .records_list.image_list ul li.panel_style_wide {
+
+        }
+        .feature_panels .records_list.image_list ul li h2 {
+
+        }
+        .feature_panels .records_list.image_list ul li.no_image h2 {
+            margin-top: 0;
+        }
+        .feature_panels .records_list.image_list ul li .description,
+        .feature_panels .records_list.image_list ul li .link {
+            display: block;
+        }
+        .feature_panels .records_list.image_list ul li.panel_image_text_adjacent .content h2 {
+            font-size: 26px;
+            letter-spacing: 3px;
+        }
+
+
+    /* Feature list
+       Full width grid item which is much larger than other grids
+    ----------------------------------------------------------- */
+
+    .feature_list {
+
+    }
+        .feature_list ul {
+
+        }
+        .feature_list ul li {
+            width: 100% !important;
+            margin: 0 0 45px;
+        }
+        .feature_list ul li .image {
+            width: 620px;
+            margin: 0 100px 0 0;
+            height: auto;
+        }
+        .feature_list ul li .image span {
+            vertical-align: top;
+            width: 620px;
+            height: auto;
+        }
+        .feature_list ul li .content {
+            width: 455px;
+            text-align: left;
+        }
+        .feature_list ul li .content h2 {
+            font-size: 18px;
+            letter-spacing: 3px;
+            margin: 0 0 22px;
+        }
+        .feature_list ul li .content .subtitle {
+            border-bottom: 1px solid #ebebeb;
+            font-size: 11.5px;
+            letter-spacing: 3px;
+            padding: 0 0 12px;
+            margin: 0 0 12px;
+        }
+        .feature_list ul li .content .date {
+            font-size: 11.5px;
+            letter-spacing: 3px;
+            margin: 0 0 14px;
+        }
+        .feature_list ul li .content .description {
+            display: block;
+            font-weight: 200;
+            margin: 0 0 16px;
+        }
+        .feature_list ul li .content .link {
+            display: block;
+            padding: 16px 0 0;
+        }
+
+        .feature_list ul li .content .location {
+            font-size: 11.5px;
+            letter-spacing: 3px;
+            margin: 0 0 14px;
+        }
+
+    /* Full list
+       A grid where the image fill the full width
+    ----------------------------------------------------------- */
+
+    .full_list {
+
+    }
+        .full_list ul {
+
+        }
+        .full_list ul li {
+            width: 100% !important;
+            margin: 0 0 45px;
+        }
+        .full_list ul li .image {
+
+        }
+        .full_list ul li .image span {
+            vertical-align: top;
+        }
+        .full_list ul li .content {
+            width: 455px;
+            text-align: left;
+        }
+        .full_list ul li .content h2 {
+            font-size: 18px;
+            letter-spacing: 3px;
+            margin: 0 0 22px;
+        }
+        .full_list ul li .content .subtitle {
+            border-bottom: 1px solid #ebebeb;
+            font-size: 11.5px;
+            letter-spacing: 3px;
+            padding: 0 0 12px;
+            margin: 0 0 12px;
+        }
+        .full_list ul li .content .date {
+            font-size: 11.5px;
+            letter-spacing: 3px;
+            margin: 0 0 14px;
+        }
+        .full_list ul li .content .description {
+            display: block;
+            font-weight: 200;
+            margin: 0 0 16px;
+        }
+        .full_list ul li .content .link {
+            display: block;
+            padding: 16px 0 0;
+        }
+
+        /* Expanding detail list
+        ----------------------------------------------------------- */
+
+        .records_list.detail_expand_grid ul li .content h2 {
+            font-size: 13px;
+            letter-spacing: 3px;
+        }
+        .records_list.detail_expand_grid .expander_detail #ajax_content,
+        .records_list.detail_expand_grid .expander_detail .artworks-page-container{
+            max-width: 1240px;
+        }
+        .records_list.detail_expand_grid ul li .expander_detail .detail_view_module {
+            margin: 0 0 20px 0;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery #image_container {
+            width: 820px;
+            padding: 60px 0 34px;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery #content_module {
+            width: 400px;
+            padding: 60px 0 34px;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery #content_module .share_link {
+            font-size: 10px;
+            -webkit-align-self: flex-start;
+            -ms-flex-item-align: start;
+            align-self: flex-start;
+        }
+
+
+        .records_list.detail_expand_grid .expander_detail #image_gallery #content_module .artwork_details_wrapper,
+        #image_gallery #content_module .detail_view_module {
+            width: 100%;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery .close {
+            opacity: 0.5;
+            top:60px;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery .close:hover {
+            opacity: 1.0;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery #image_content h2 {
+            margin: 0 0 20px;
+            padding-right: 20px;
+        }
+
+
+    /* link
+       Basic text link usually used throughout the site
+    ----------------------------------------------------------- */
+
+    .link,
+    .simple_list ul li {
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #757575;
+        font-size: 10.5px;
+    }
+        .link a {
+
+        }
+        .link span,
+        .link a,
+        .link a:visited,
+        .simple_list ul li a,
+        .simple_list ul li a:visited {
+            color: #757575;
+            font-weight: 200;
+        }
+
+
+
+    /* Social links
+       A list of social links, usually appears on the contact page
+    ----------------------------------------------------------- */
+
+    #social_links_list {
+
+    }
+        #social_links_list ul li {
+            font-weight: 200;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #757575;
+            font-size: 10.5px;
+        }
+
+
+    /* Pagination
+    ----------------------------------------------------------- */
+
+    .page_stats {
+        padding: 30px 0 0;
+        margin: 0;
+        border-top: 1px solid #ebebeb;
+        clear: both;
+    }
+        .page_stats .ps_item {
+            color: #757575;
+            font-size: 11.5px;
+            letter-spacing: 2px;
+            font-weight: 200;
+            text-transform: uppercase;
+        }
+        .page_stats .ps_item a,
+        .page_stats .ps_item a:visited {
+            color: #303030;
+        }
+        .page_stats .ps_pages {
+            color: #757575;
+            font-size: 11.5px;
+            letter-spacing: 2px;
+            font-weight: 200;
+            text-transform: uppercase;
+        }
+
+
+    /* Miscellaneous
+       Common classes used throughout the site, generally on grids
+    ----------------------------------------------------------- */
+
+    .description {
+
+    }
+    .subheading {
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #757575;
+        font-size: 11.5px;
+        margin: 0 0 50px;
+        display: block;
+        background: url(../images/system/horizontal_line.png) 0 6px repeat-x;
+    }
+        .subheading span {
+            background: #FFF;
+            padding: 0 10px 0 0;
+        }
+        .subheading_description {
+            margin-top: -25px;
+            margin-bottom: 50px;
+        }
+    .poster,
+    .subtitle,
+    .h1_subtitle,
+    .location {
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #303030;
+        font-size: 11.5px;
+        line-height: 1.4em;
+    }
+    .date {
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #757575;
+        font-size: 11.5px;
+        line-height: 1.4em;
+    }
+    .price {
+        font-weight: 200;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        line-height: 1.4em;
+        color: #cc0000;
+        font-size: 13px;
+    }
+    .image {
+        /*
+            background-image: linear-gradient(left top, #F5F5F5 0%, #FFFFFF 50%, #F5F5F5 100%);
+            background-image: -o-linear-gradient(left top, #F5F5F5 0%, #FFFFFF 50%, #F5F5F5 100%);
+            background-image: -moz-linear-gradient(left top, #F5F5F5 0%, #FFFFFF 50%, #F5F5F5 100%);
+            background-image: -webkit-linear-gradient(left top, #F5F5F5 0%, #FFFFFF 50%, #F5F5F5 100%);
+            background-image: -ms-linear-gradient(left top, #F5F5F5 0%, #FFFFFF 50%, #F5F5F5 100%);
+            background-image: -webkit-gradient(
+                    linear,
+                    left top,
+                    right bottom,
+                    color-stop(0, #F5F5F5),
+                    color-stop(0.5, #FFFFFF),
+                    color-stop(1, #F5F5F5)
+            );
+        */
+    }
+    .caption {
+
+    }
+    .divider {
+
+    }
+
+
+    /* Fancybox overrides
+    ----------------------------------------------------------- */
+
+    #fancybox-overlay {
+        background: #303030 !important;
+    }
+    #fancybox-title-main {
+        font-size: 12.5px;
+        font-weight: 200;
+        color: #303030;
+    }
+        #fancybox-title-main .artist strong {
+            color: #303030;
+            font-size: 12.5px;
+            font-weight: 200;
+            font-weight: 200;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 11.5px;
+        }
+        .fancybox-title .price {
+            letter-spacing: 1px;
+            font-size: 12px;
+        }
+
+    /* Mailchimp form
+    ----------------------------------------------------------- */
+
+    #mc_embed_signup input.button {
+        font-family: inherit;
+        font-size: 12px;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: #757575;
+        width: auto;
+    }
+
+
+     /* AddThis overrides
+    ----------------------------------------------------------- */
+
+    .share_link {
+        font-size: 10px;
+    }
+        #at16recap, #at_msg, #at16p label, #at16nms, #at16sas, #at_share .at_item, #at16p, #at15s, #at16p form input, #at16p textarea, .at16nc {
+            font-family: inherit;
+            font-size: 10px !important;
+            font-weight: 200;
+        }
+
+
+    /* Width compatability
+       Older versions of this template have a maximum width of 1023, when this mode is active the following selectors reduce the width of the site
+    ----------------------------------------------------------- */
+
+    body.responsive-top-size-1023 #container,
+    body.responsive-top-size-1023.type-fullscreen #header .inner,
+    body.responsive-top-size-1023 #header .inner,
+    body.responsive-top-size-1023 #header.header_fixed .inner,
+    body.responsive-top-size-1023 #footer,
+    body.responsive-top-size-1023.section-home #slideshow.records_list .image,
+    body.responsive-top-size-1023 #hero_header .inner {
+        width: 940px;
+    }
+
+    body.responsive-top-size-1023 .fullscreen_slideshow ul li .content {
+        width: 1000px;
+    }
+    body.responsive-top-size-1023 #content_module {
+        width: 580px;
+    }
+    body.responsive-top-size-1023 #sidebar {
+        width: 300px;
+    }
+    body.responsive-top-size-1023.page-contact #content_module {
+        width: 420px;
+    }
+    body.responsive-top-size-1023.page-contact #sidebar {
+        width: 470px;
+    }
+    body.responsive-top-size-1023.section-store .subsection-store-basket #content_module {
+        width: 630px;
+    }
+    body.responsive-top-size-1023.section-store .subsection-store-basket #sidebar {
+        width: 250px;
+    }
+    body.responsive-top-size-1023 .feature_list ul li .image {
+        width: 380px;
+    }
+    body.responsive-top-size-1023 .feature_list ul li .image span {
+        width: 380px;
+    }
+    body.responsive-top-size-1023 .records_list > ul > li {
+        width: 300px;
+    }
+    body.responsive-top-size-1023 .records_list.reading_list ul li {
+        width: 100%;
+    }
+    body.responsive-top-size-1023 .records_list.detail_expand_grid .expander_detail #ajax_image_gallery #image_container {
+        width: 585px;
+        padding: 50px 0 25px;
+    }
+    body.responsive-top-size-1023 .records_list.detail_expand_grid .expander_detail #ajax_image_gallery #ajax_content_module {
+        width: 350px;
+        padding: 50px 0 34px 40px;
+    }
+
+    body.responsive-top-size-1023 #image_gallery #image_container,
+    body.responsive-top-size-1023 #image_gallery #image_container .image,
+    body.responsive-top-size-1023 #image_gallery #image_container .image span {
+        width: 660px;
+        height: 480px;
+    }
+
+        body.responsive-top-size-1023 #image_gallery.artwork_full_details_open #image_container {
+            width: 250px;
+        }
+        body.responsive-top-size-1023 #image_gallery #image_container .image,
+        body.responsive-top-size-1023 #image_gallery #image_container .image span {
+            width: 100%;
+        }
+
+    body.responsive-top-size-1023 #image_gallery #content_module {
+        min-height: 450px;
+    }

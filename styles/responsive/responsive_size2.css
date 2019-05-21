@@ -1,0 +1,338 @@
+
+    /* -----------------------------------------------------------
+       Generic
+    ----------------------------------------------------------- */
+
+    body.debug-mode:after {
+        content: "5 col"; /* the label to identify this MQ */
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        z-index: 8888;
+    }
+
+    #content_module,
+    #sidebar,
+    #secondary_content_module,
+    #image_gallery.record-layout-descriptive .page_stats {
+        float: none !important;
+        width: 100% !important;
+        min-height: 0 !important;
+        min-width: 0 !important;
+        margin: 0;
+        height: auto;
+        
+    }
+
+    #header,
+    #header.header_fixed {
+        z-index: 2000;
+        position: relative !important;
+    }
+    body.type-fullscreen.cms-frontend-toolbar-active #header {
+        top: 0;
+    }
+    body.cms-frontend-toolbar-active #header.header_fixed,
+    body.type-fullscreen.cms-frontend-toolbar-active #header.header_fixed {
+        top: 0;
+    }
+        #header .inner,
+        #header.header_fixed .inner {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        #logo {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+            float: none;
+            width: 100%;
+            background-position: center center;
+        }
+            #logo a {
+                text-align: center;
+                padding-top: 0;
+                width: 100%;
+            }
+
+        /* Topnav found in responsive_topnav.css */
+
+        .layout-fixed-header #main_content,
+        #main_content {
+            padding-top: 30px !important;
+        }
+
+        #footer #contact_info {
+            clear: both;
+            padding: 20px 0 0;
+            max-width: 450px;
+        }
+
+        #store_cart_widget {
+            float: left;
+            margin-top: 0;
+        }
+            #store_cart_widget #scw_heading,
+            #store_cart_widget #scw_items .scw_total_items,
+            #store_cart_widget #scw_items .scw_total_price,
+            #store_cart_widget #scw_checkout,
+            #store_cart_widget .currency_store_select_wrapper{
+                margin-left: 0;
+                margin-right: 20px;
+            }
+
+        #hero_header {
+            position: relative;
+        }
+        #hero_header .inner {
+            height: auto;
+        }
+        #hero_heading,
+        .parallax-element-with-slideshow #hero_heading {
+            font-size: 35px;
+            display: block;
+        }
+        #hero_header #hero_heading {
+            position: static;
+            top: auto;
+            left: auto;
+            right: auto;
+            bottom: auto;
+            margin: 0;
+            padding: 20px 0;
+        }
+        #hero_header:after {
+            background: rgba(0,0,0,0.3);
+        }
+        #hero_image_responsive,
+        .hero_image_responsive,
+        .feature_panels .records_list.image_list ul li.panel_hero .hero_image_responsive {
+            display: block;
+        }
+        #hero_header #slideshow {
+            display: none;
+        }
+        .parallax-mirror {
+            display: none !important;
+        }
+        #content .fullscreen_slideshow.fullscreen_slideshow_parallax,
+        #content .fullscreen_slideshow.fullscreen_slideshow_parallax.parallax-loaded {
+            display: block !important;
+        }
+        #content #slideshow.fullscreen_slideshow .hero-parallax-element {
+            display: block !important;
+        }
+            #slideshow span {
+                display: block !important;
+            }
+        body.layout-hero-header #container {
+            padding-top: 0;
+        }
+        body.layout-hero-header #header {
+            
+        }
+        body.layout-hero-header #header.responsive-nav-open {
+            box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        }
+        /*
+        body.layout-hero-header #container,
+        body.section-home.layout-hero-header #container {
+            padding-top: 130px;
+        }
+        */
+
+    /* -----------------------------------------------------------
+        Global classes
+    ----------------------------------------------------------- */
+        
+        /* Feature panels
+        ----------------------------------------------------------- */
+
+
+            /* Feature panel type 3 - hero parallax heading
+            ----------------------------------------------------------- */
+
+            body .feature_panels .records_list.image_list ul li.panel_hero .hero_heading {
+                min-height: 0;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            .feature_panels .records_list.image_list ul li.panel_hero .hero_heading > h2,
+            .feature_panels .records_list.image_list ul li.panel_hero .hero_heading > a > h2 {
+                font-size: 20px;
+                line-height: 20px;
+                margin: 0;
+            }
+            .feature_panels .records_list.image_list ul li.panel_hero .hero_heading .subtitle {
+                font-size: 12px;
+                line-height: 16px;
+            }
+
+
+            /* Feature panel type 4 - Image/Text adjacent
+            ----------------------------------------------------------- */
+            
+            .feature_panels .records_list.image_list ul li.panel_image_text_adjacent {
+                width: 100% !important;
+                float: none;
+            }
+            .feature_panels .records_list.image_list ul li.panel_image_text_adjacent .content {
+                width: 100% !important;
+                display: block !important;
+            }
+            .feature_panels .records_list.image_list ul li.panel_image_text_adjacent {
+                width: 100% !important;
+            }
+            .feature_panels .records_list.image_list ul li.panel_image_text_adjacent .content,
+            .feature_panels .records_list.image_list ul li.panel_image_text_adjacent .outer,
+            .feature_panels .records_list.image_list ul li.panel_image_text_adjacent .outer .image{
+                width: 100% !important;
+                float: none !important;
+                padding-right: 0 !important;
+                display: block;
+            }
+
+
+
+        /* Slideshow
+        ----------------------------------------------------------- */
+
+        #slideshow {
+            position: static !important;
+        }
+        .type-fullscreen #main_content {
+            padding-top: 0 !important;
+        }
+
+
+        /* Image gallery slideshow
+        ----------------------------------------------------------- */
+
+        #image_gallery #content_module {
+            display: block;
+            clear: both;
+        }
+        
+        #ig_slideshow {
+            /* Cycle sometimes doesnt correctly calculate the height of the first slide in Chrome */
+            /* The following line is necessary to make sure that the user at least sees some of the image in these cases */
+            min-height: 200px;
+        }
+        
+        #ig_slideshow_caption {
+            float: none;
+        }
+
+        div.arprompt {
+            width: 80%;
+        }
+
+
+        /* Image gallery detail expand
+        ----------------------------------------------------------- */
+        .records_list.detail_expand_grid .expander_detail #image_gallery #image_container {
+            width: 100%;
+            display: block;
+            padding: 30px 0;
+            margin-right: 0;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery #content_module {
+            width: 100%;
+            display: block;
+            padding: 0 0 20px 0;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery .close {
+            top: 0;
+        }
+        
+    /* -----------------------------------------------------------
+       Page Specific
+    ----------------------------------------------------------- */
+
+        /* Home
+        ----------------------------------------------------------- */
+
+        .fullscreen_slideshow .fullscreen_slideshow_video {
+            display: none;
+        }
+        body #home_splash .content {
+            background-size: contain;
+            left: 30px;
+            right: 30px;
+            width: auto !important;
+            font-size: 40px;
+            line-height: 60px;
+        }
+        body #home_splash .content.logo_image_exists {
+            background-size: contain !important;
+        }
+        .fullscreen_slideshow ul li .content h2 a,
+        .fullscreen_slideshow ul li .content h2 a:visited,
+        .fullscreen_slideshow ul li .content h2 a .separator,
+        .fullscreen_slideshow ul li .content h2 a .h1_subtitle {
+            font-size: 22px;
+            line-height: 24px;
+            letter-spacing: 2px;
+        }
+        .fullscreen_slideshow .hero_splash_text,
+        .fullscreen_slideshow .hero_splash_text .title{
+            font-size: 40px;
+            line-height: 44px;
+        }
+        .fullscreen_slideshow ul li .image {
+            background-attachment: scroll;
+        }
+
+
+
+        /* Artists
+        ----------------------------------------------------------- */
+
+        #list_preview_slideshow.content_follow {
+            margin-top: 0 !important;
+        }
+        
+        body.cms-frontend-toolbar-active.page-artists .subsection-artist-list-preview-letters #sidebar.content_follow_sticky {
+            top: 0;
+        }
+        
+        .page-artists .subsection-artist-list-preview-letters #list_preview_slideshow {
+            max-height: none;
+        }
+        
+        .page-artists .subsection-artist-list-preview-letters #sidebar.content_follow_sticky {
+            position: relative;
+            top: 0;
+            margin-top: 30px !important;
+        }
+
+        /* Blog
+        ----------------------------------------------------------- */
+
+        .records_list.reading_list ul li .blog_toolbar .author .icon {
+            width: 35px;
+            height: 35px;
+        }
+        .records_list.reading_list ul li .blog_toolbar .share_link {
+            margin: 5px 0 0;
+        }
+        .section-blog .subsection-blog-grid #sidebar {
+            padding: 0;
+        }
+
+        /* Forms
+        ----------------------------------------------------------- */
+
+        .form.form_style_columns .form_row {
+            width: 100%;
+        }
+
+        /* Store
+        ----------------------------------------------------------- */
+
+        #shopping_cart_information td.sc_cell_item .image {
+            display: none !important;
+        }

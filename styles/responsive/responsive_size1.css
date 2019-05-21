@@ -1,0 +1,173 @@
+
+    body.debug-mode:after {
+        content: "1 col"; /* the label to identify this MQ */
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        z-index: 8888;
+    }
+
+    #container iframe {
+        max-height: 220px;
+    }
+    iframe.stripe_checkout_app {
+        max-height: 100%;
+    }
+
+
+    /* -----------------------------------------------------------
+       Generic
+    ----------------------------------------------------------- */
+
+
+
+    /* -----------------------------------------------------------
+       General layout
+    ----------------------------------------------------------- */
+
+        #main_content {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        #footer .inner {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        #footer #social_links {
+            float: left;
+            clear: left;
+            padding: 10px 0 0;
+        }
+        #social_links .social_links_item {
+            margin: 0 8px 0 0;
+        }
+        #footer.advanced_footer .advanced_footer_item {
+            width:100%;
+            display: block;
+            padding: 0 0 20px 0;
+        }
+        body.slide-nav-open #responsive_slide_nav_wrapper {
+            width: 100%;
+        }
+        
+    /* -----------------------------------------------------------
+        Global classes
+    ----------------------------------------------------------- */
+
+        /* Detail list
+        ----------------------------------------------------------- */
+
+        body.responsive-layout-forced-lists .detail_list ul li .image {
+            width: 35% !important;
+            float: left !important;
+            margin-bottom: 0;
+            height: auto !important;
+            text-align: left;
+        }
+        body.responsive-layout-forced-lists .detail_list ul li .image span {
+            height: auto !important;
+        }
+        body.responsive-layout-forced-lists .detail_list ul li .content {
+            width: 60% !important;
+            float: right !important;
+            text-align: left;
+        }
+        body.responsive-layout-forced-lists .detail_list ul li.no_image .content {
+            width: 100% !important;
+        }
+
+
+        /* Image gallery slideshow
+        ----------------------------------------------------------- */
+
+        #ig_slideshow {
+            /* Cycle sometimes doesnt correctly calculate the height of the first slide in Chrome */
+            /* The following line is necessary to make sure that the user at least sees some of the image in these cases */
+            min-height: 160px;
+        }
+
+        /* Cart
+        ----------------------------------------------------------- */
+
+        #shopping_cart_information th.sc_column_singleprice,
+        #shopping_cart_information td.sc_cell_singleprice {
+            display: none;
+        }
+        #shopping_cart_information td.sc_cell_item .details {
+            display: none;
+        }
+        #shopping_cart_information td.sc_cell_quantity .qty {
+            padding: 0;
+        }
+        #sc_checkout_content #shipping_container select {
+            width: 100%;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        #scw_popup_buttons_container {
+            display: block;
+        }
+            #scw_popup_buttons_container .button {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+            #scw_popup_buttons_container .button:last-child {
+                margin-bottom: 0;
+            }
+
+
+        /* Image gallery detail expand
+        ----------------------------------------------------------- */
+        .records_list.detail_expand_grid ul li .expander_detail {
+            padding: 0 20px;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery #image_container {
+            display:none;
+        }
+        .records_list.detail_expand_grid ul li.active .title {
+            opacity:0;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery #ajax_content_module {
+            padding: 30px 0;
+        }
+        .records_list.detail_expand_grid .expander_detail #image_gallery .close {
+            top: 0;
+        }
+        .records_list.detail_expand_grid ul li .image .artwork-image-desktop   {
+            display:none !important;
+        }
+        .records_list.detail_expand_grid ul li .image .artwork-image-mobile   {
+            display:block !important;
+        }
+
+
+        /* Feature panels
+        ----------------------------------------------------------- */
+
+        
+        /* Feature panel type 4 - Image/Text adjacent
+        ----------------------------------------------------------- */
+
+
+    /* -----------------------------------------------------------
+       Page Specific
+    ----------------------------------------------------------- */
+
+        body #home_splash .content {
+            font-size: 28px;
+            line-height: 36px;
+        }
+        .fullscreen_slideshow .hero_splash_text,
+        .fullscreen_slideshow .hero_splash_text .title{
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+
+
+  

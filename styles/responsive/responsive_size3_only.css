@@ -1,0 +1,211 @@
+
+
+    #content_module {
+        width: 63%;
+    }
+    #sidebar {
+        width: 32%;
+    }
+    .section-contact #content_module {
+        width: 63%;
+    }
+    .section-contact #sidebar {
+        width: 32%;
+    }
+
+    .section-store .subsection-store-basket #content_module {
+        width: 63%;
+    }
+    .section-store .subsection-store-basket #sidebar {
+        width: 32%;
+    }
+
+
+
+    body #image_gallery #image_container {
+        width: 65%;
+        float: right;
+    }
+    body #image_gallery #content_module {
+        width: 30%;
+        float: left;
+    }
+    
+        body #image_gallery.record-layout-descriptive #image_container {
+            width: 58%;
+            float: right;
+        }
+        #image_gallery.record-layout-descriptive #secondary_content_module,
+        #image_gallery.record-layout-descriptive .page_stats {
+            width: 58%;
+            float: right;
+        }
+        body #image_gallery.record-layout-descriptive #content_module {
+            width: 38%;
+            float: left;
+        }
+
+    body #image_gallery.artwork_full_details_open #image_container {
+        width: 30% !important;
+    }
+    body #image_gallery.artwork_full_details_open #content_module {
+        width: 60% !important;
+    }
+
+    body.responsive-layout-forced-lists .records_list.feature_list ul li .image {
+        width: 40% !important;
+        float: left !important;
+    }
+    body.responsive-layout-forced-lists .records_list.feature_list ul li .content {
+        width: 55% !important;
+        float: right !important;
+    }
+
+    /* Three columns in this viewport */
+
+    body.responsive-layout-forced-image-lists .records_list.image_list,
+    body.responsive-layout-forced-lists .records_list.detail_list {
+        margin-right: -20px !important;
+        width: auto !important;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list > ul,
+    body.responsive-layout-forced-lists .records_list.detail_list > ul {
+        display: inline !important;
+        clear: none !important;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list > ul > li,
+    body.responsive-layout-forced-lists .records_list.detail_list > ul > li {
+        float: none !important;
+        display: inline-block;
+        vertical-align: top;
+        width: 33.33% !important;
+        clear: none !important;
+        margin-right: 0 !important;
+        padding-right: 20px !important;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    /*
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li:nth-of-type(3n),
+    body.responsive-layout-forced-lists .records_list.detail_list ul li:nth-of-type(3n) {
+        margin-right: 0 !important;
+    }
+    */
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li.unequal_threecol,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li.unequal_threecol {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .outer,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .outer {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .fill,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .fill {
+        margin-top: 100%;
+        display: block;
+    }
+        body.responsive-layout-forced-image-lists .records_list.image_list ul li.panel_image_text_adjacent .fill,
+        body.responsive-layout-forced-lists .records_list.detail_list ul li.panel_image_text_adjacent .fill {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .image_wrapper,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .image_wrapper {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .image,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .image,
+    body.responsive-layout-forced-image-lists .records_list.image_list ul li .image span,
+    body.responsive-layout-forced-lists .records_list.detail_list ul li .image span {
+        height: auto !important;
+        /*display: block !important;*/
+    }
+
+
+    body.responsive-layout-forced-lists.page-artists .subsection-artist-list-preview #list_preview_navigation.records_list.columns_list ul,
+    body.responsive-layout-forced-lists.page-artists .subsection-artist-list-preview-letters #list_preview_navigation.records_list.columns_list ul {
+        width: 50% !important;
+        display: inline-block !important;
+        vertical-align: top;
+    }
+
+    /* Tile list ----------------------------------------------------------- */
+
+    body.responsive-layout-forced-tile-lists .records_list.tile_list ul {
+        width: 30% !important;
+        margin-right: 5% !important;
+        float: left !important;
+    }
+    body.responsive-layout-forced-tile-lists .records_list.tile_list ul:nth-of-type(3n) {
+        margin-right: 0 !important;
+    }
+
+    /* Lists in a sidebar are excluded ----------------------------------------------------------- */
+
+    body.responsive-layout-forced-image-lists #sidebar .records_list.image_list ul li,
+    body.responsive-layout-forced-lists #sidebar .records_list.detail_list ul li {
+        width: 100% !important;
+        clear: both !important;
+        margin-right: 0 !important;
+    }
+    
+    /* Image gallery detail expand
+    ----------------------------------------------------------- */
+    .records_list.detail_expand_grid .expander_detail #image_gallery #image_container {
+        width: 56%;
+    }
+    .records_list.detail_expand_grid .expander_detail #image_gallery #content_module {
+        width: 40%;
+    }
+
+    /* Feature panels
+    ----------------------------------------------------------- */
+
+
+        /* Feature panel type 6 - image grid
+        ----------------------------------------------------------- */
+
+        .feature_panels .records_list.image_list ul li.panel_image_grid {
+            width: 100% !important;
+        }
+
+
+        /* Feature panel type 4 - Image/Text adjacent
+        ----------------------------------------------------------- */
+
+        .feature_panels .records_list.image_list ul li.panel_image_text_adjacent{
+            width: 100% !important;
+        }
+        .feature_panels .records_list.image_list ul li.panel_image_text_adjacent .outer {
+            width: 50% !important;
+            display: inline-block !important;
+        }
+        .feature_panels .records_list.image_list ul li.panel_image_text_adjacent .content {
+            width: 50% !important;
+            display: inline-block !important;
+
+        }
+
+    /* Artist list ----------------------------------------------------------- */
+
+    body.responsive-layout-forced-lists.section-artists #artist_list.names_list ul {
+        margin-right: -20px;
+    }
+    body.responsive-layout-forced-lists.section-artists #artist_list.names_list li {
+        width: 33.33% !important;
+        padding-right: 20px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
